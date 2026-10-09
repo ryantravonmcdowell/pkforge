@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# Tooling
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Outputs (regenerate with `pkforge demo`, `pkforge bench ...`)
+demo_output/
+out/
+*.db
+*.db-wal
+*.db-shm
+*.html
+problems.jsonl
+study.csv
+
+# Downloaded data is fetched on demand and checksum-verified, never committed
+Theoph.csv
+
+# Secrets
+.env
